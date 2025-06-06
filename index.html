@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/cjs/react-dom.production.min.js"
+		integrity="sha512-JNrK0svSdzmupRoUCGrnD5Im9ybaQ/dtwjbEE8top7nLk6qlV6jatbUinWJf1B+//gADpfBVm8nF1eyreAJX3w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+	<title></title>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo">
+				<a href="#Accueil"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<ul class="link">
+				<li><a href="#activities">GSS</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#teams">Equipe</a></li>
+				<li><a href="#partners">Nos partennaires</a></li>
+				<li><a href="#abouts">A propos de nous</a></li>
+				<li><a href="#contact">Contacts</a></li>
+			</ul>
+			<a class="action_btn" href="#actions">Commençons</a>
+			<div class="toggle_btn">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+			<div class="dropdown_menu">
+				</ul>
+				<li><a href="#hero">GSS</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#teams">Equipe</a></li>
+				<li><a href="#about">A propos de nous</a></li>
+				<li><a href="#contact">Contacts</a></li>
+				<li><a href="#" class="action_btn">Commencons</a></li>
+			</div>
+		</div>
+	</header>
+	<section id="hero">
+		<div class="hero_text_wrap">
+			<h1>Bienvenue</h1>
+			<p>Dans un monde de Surveillance <br>ou la sécurité de vos bien et services sont la priorité de tout une
+				entreprise.</p>
+			<div class="contact_btn">
+				<a href="#contact">Contactez-nous des maintenant</a>
+			</div>
+		</div>
+	</section>
+	<!-- Section Services -->
+	<section id="abouts">
+		<div class="about">
+			<div class="left">
+				<h1>Presentation </h1>
+				<p>Nous sommes une entreprise dédiée à fournir des services de haute qualité. Notre équipe est composée
+					de
+					professionnels expérimentés qui s'engagent à offrir le meilleur à nos clients.</p>
+			</div>
+
+			<div class="image-wrap">
+				<img src="images/logo.png" alt="">
+			</div>
+		</div>
+
+	</section>
+	
+	<section id="services">
+		<h2 class="service_title">Nos Services</h2>
+		<div class="services-container">
+			<div class="service">
+				<img src="images/logo.png" alt="Service 1">
+				<h3>Service 1</h3>
+				<p>Description du Service 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="service">
+				<img src="images/logo.png" alt="Service 2">
+				<h3>Service 2</h3>
+				<p>Description du Service 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="service">
+				<img src="images/logo.png" alt="Service 3">
+				<h3>Service 3</h3>
+				<p>Description du Service 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="service">
+				<img src="images/logo.png" alt="Service 4">
+				<h3>Service 4</h3>
+				<p>Description du Service 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="service">
+				<img src="images/logo.png" alt="Service 5">
+				<h3>Service 5</h3>
+				<p>Description du Service 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="service">
+				<img src="images/logo.png" alt="Service 6">
+				<h3>Titre du Service 6</h3>
+				<p>Description du Service 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--<script>
+		const toggleBtn = document.querySelector('toggle_btn')
+		const toggleBtnIcon = document.querySelector('toggle_btn')
+		const dropdownMenu = document.querySelector('toggle_btn')
+
+		toggleBtn.onclick = function () {
+			dropdownMenu.classList.toggle('open')
+			const isOpen = dropdownMenu.classList.contains('open')
+
+			toggleBtnIcon.classList = isOpen
+			? 'fa-solid fa-xmark'
+			: 'fa-solid fa-bars'
+		}
+	</script>
+	-->
+
+	<!--activitee-->
+	<section id="activities">
+		<div class="activities-container">
+			<div class="activity">
+				<h1>Gardiennage Stactique</h1>
+				<img src="images/gp2.png" alt="">
+				<div class="text_wrap">
+
+					<p>Vous êtes à la recherche d’une agence qui propose un service de gardiennage statique ? Faites
+						appel à notre entreprise spécialisée dans le domaine ! Nous mettons à votre disposition des
+						agents professionnels pour la sécurisation de votre site ou bâtiment, quel que soit votre
+						secteur d’activités.</p>
+
+				</div>
+
+			</div>
+			<div class="activity">
+				<h1>Intervation apres alarme</h1>
+				<img src="images/gp4.png" alt="">
+				<div class="text_wrap">
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptate perspiciatis
+						adipisci doloremque asperiores accusantium quo nostrum laborum, modi dignissimos ab iste quod
+						accusamus exercitationem commodi possimus nemo corrupti aspernatur.</p>
+
+				</div>
+
+			</div>
+			<div class="activity">
+				<h1>Inspecteur Magasin</h1>
+				<img src="images/gard2.png" alt="">
+				<div class="text_wrap">
+
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptate perspiciatis
+						adipisci doloremque asperiores accusantium quo nostrum laborum, modi dignissimos ab iste quod
+						accusamus exercitationem commodi possimus nemo corrupti aspernatur.</p>
+
+				</div>
+
+			</div>
+			<div class="activity">
+				<h1>Protection raprochee</h1>
+				<img src="images/gm.png" alt="">
+				<div class="text_wrap">
+
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptate perspiciatis
+						adipisci doloremque asperiores accusantium quo nostrum laborum, modi dignissimos ab iste quod
+						accusamus exercitationem commodi possimus nemo corrupti aspernatur.</p>
+
+				</div>
+
+			</div>
+			<div class="activity">
+				<h1>Surveillances urgent</h1>
+				<img src="images/gp.png" alt="">
+				<div class="text_wrap">
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptate perspiciatis
+						adipisci doloremque asperiores accusantium quo nostrum laborum, modi dignissimos ab iste quod
+						accusamus exercitationem commodi possimus nemo corrupti aspernatur.</p>
+
+				</div>
+
+			</div>
+			<div class="activity">
+				<h1>Gardiennage evenemmentiel</h1>
+				<img src="images/gs.png" alt="">
+				<div class="text_wrap">
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptate perspiciatis
+						adipisci doloremque asperiores accusantium quo nostrum laborum, modi dignissimos ab iste quod
+						accusamus exercitationem commodi possimus nemo corrupti aspernatur.</p>
+
+				</div>
+
+			</div>
+
+			<!-- Ajoute plus d'activités si nécessaire -->
+		</div>
+		<!--<div class="indicator">
+			<button class="scroll-left">←</button>
+			<button class="scroll-right">→</button>
+		</div>-->
+	</section>
+
+	<!--Collaborateur-->
+
+	<section id="teams">
+		<h2 class="team_title">Notre Equipe</h2>
+		<div class="teams-container">
+			<div class="team">
+				<img src="images/dame.png" alt="Team 1">
+				<h3>Responsable Clientels</h3>
+				<p>Description du Service 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="team">
+				<img src="images/dame.png" alt="Team 2">
+				<h3>Superviseur</h3>
+				<p>Description du Service 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="team">
+				<img src="images/dame.png" alt="Team 3">
+				<h3>Comptable</h3>
+				<p>Description du Service 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="team">
+				<img src="images/dame.png" alt="Team 4">
+				<h3>Secretaire</h3>
+				<p>Description du Service 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Section Contacts -->
+	<section id="contact">
+		<h2>Contactez-nous</h2>
+		<p>Nous sommes une entreprise dédiée à fournir des services de haute qualité. Notre équipe est composée de
+			professionnels expérimentés qui s'engagent à offrir le meilleur à nos clients. Lorem ipsum dolor sit
+			amet,
+			consectetur adipiscing elit.</p>
+		<form>
+			<label for="name">Nom :</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email :</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message :</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+
+			<button type="submit">Envoyer</button>
+		</form>
+	</section>
+
+
+	<section id="partners">
+		<h2>Ils nous faire confience partennaires</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ea odit, iste cumque nostrum modi tempora eum
+			quaerat tempore excepturi, quod esse soluta in dignissimos aut consequatur, labore ratione explicabo?</p>
+		<div class="partner-container">
+			<div class="partner">
+				<img src="images/logo.png" alt="Team 1">
+			</div>
+			<div class="partner">
+				<img src="images/logo.png" alt="Team 2">
+			</div>
+			<div class="partner">
+				<img src="images/logo.png" alt="Team 3">
+			</div>
+			<div class="partner">
+				<img src="images/logo.png" alt="Team 4">
+			</div>
+
+		</div>
+	</section>
+
+
+	<script src="script.js"></script>
+
+	<script>
+		const toggleBtn = document.querySelector('.toggle_btn'); // Sélecteur de classe
+		const toggleBtnIcon = document.querySelector('.toggle_btn i'); // Sélecteur de classe + élément i pour l'icône
+		const dropdownMenu = document.querySelector('.dropdown_menu'); // Sélecteur de classe
+
+		toggleBtn.onclick = function () {
+			dropdownMenu.classList.toggle('open');
+			const isOpen = dropdownMenu.classList.contains('open');
+
+			// Changer l'icône en fonction de l'état du menu
+			if (isOpen) {
+				toggleBtnIcon.classList.remove('fa-bars');
+				toggleBtnIcon.classList.add('fa-xmark');
+			} else {
+				toggleBtnIcon.classList.remove('fa-xmark');
+				toggleBtnIcon.classList.add('fa-bars');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+			const container = document.querySelector('.activities-container');
+			const scrollLeftBtn = document.querySelector('.scroll-left');
+			const scrollRightBtn = document.querySelector('.scroll-right');
+
+			scrollLeftBtn.addEventListener('click', () => {
+				container.scrollBy({
+					left: -200, // Ajuste la valeur pour changer la distance de défilement
+					behavior: 'smooth'
+				});
+			});
+
+			scrollRightBtn.addEventListener('click', () => {
+				container.scrollBy({
+					left: 200, // Ajuste la valeur pour changer la distance de défilement
+					behavior: 'smooth'
+				});
+			});
+		});
+
+	</script>
+	<!--footer-->
+	<div class="footer" id="zone">
+		<div class="foot-container">
+			<div class="footItem">
+
+				<div class="foot-contenu">
+					<h2>Siège social</h2>
+					<p>Lambangni face-a-casino</p>
+					<p>16 - PB 3452 Conakry</p>
+				</div>
+			</div>
+			<div class="footItem">
+				<div class="contenu">
+					<h2>Contacts</h2>
+					<p>contac@serval.com</p>
+					<p>comemerces@serval.com</p>
+					<p>+224 657 57 48 38</p>
+				</div>
+			</div>
+			<div class="footItem">
+				<div class="contenu">
+					<h2>Nos service</h2>
+					<p>Gardiennage Stactique</p>
+					<p>Intervation apres alarme</p>
+					<p>Inspecteur Magasin</p>
+					<p>Protection raprochee</p>
+					<p>Surveillances urgent</p>
+					<p>Gardiennage evenemmentiel</p>
+				</div>
+			</div>
+			<div class="foot-media-center">
+				<div class="media-content">
+					<div class="icon-wrap">
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-regular fa-envelope"></i>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="Copyright">
+		<p>Copyright GSS / Guinee-service-Securite 2015 / 2024</p>
+	</div>
+</body>
+
+</html>

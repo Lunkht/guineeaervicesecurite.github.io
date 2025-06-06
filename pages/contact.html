@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/main_style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/cjs/react-dom.production.min.js"
+		integrity="sha512-JNrK0svSdzmupRoUCGrnD5Im9ybaQ/dtwjbEE8top7nLk6qlV6jatbUinWJf1B+//gADpfBVm8nF1eyreAJX3w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+	<title></title>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo">
+				<a href="#Accueil"><img src="images/Logo01.png" alt="logo"></a>
+			</div>
+			<ul class="link">
+				<li><a href="#activities">GSS</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#teams">Equipe</a></li>
+				<li><a href="#partners">Nos partennaires</a></li>
+				<li><a href="#abouts">A propos de nous</a></li>
+				<li><a href="#contact">Contacts</a></li>
+			</ul>
+			<a class="action_btn" href="#actions">Commençons</a>
+			<div class="toggle_btn">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+			<div class="dropdown_menu">
+				</ul>
+				<li><a href="#hero">GSS</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#teams">Equipe</a></li>
+				<li><a href="#about">A propos de nous</a></li>
+				<li><a href="#contact">Contacts</a></li>
+				<li><a href="#" class="action_btn">Commencons</a></li>
+			</div>
+		</div>
+	</header>
+	<section id="hero">
+		<div class="hero_text_wrap">
+			<h1>Bienvenue</h1>
+			<p>Dans un monde de Surveillance <br>ou la sécurité de vos bien et services sont la priorité de tout une
+				entreprise.</p>
+			<div class="contact_btn">
+				<a href="#contact">Contactez-nous des maintenant</a>
+			</div>
+		</div>
+
+		<img src="images/agent1.png" alt="" class="hero_img">
+	</section>
+
+	<!-- Section Contacts -->
+	<section id="contact">
+		<h2>Contactez-nous</h2>
+		<p>Nous sommes une entreprise dédiée à fournir des services de haute qualité. Notre équipe est composée de
+			professionnels expérimentés qui s'engagent à offrir le meilleur à nos clients. Lorem ipsum dolor sit
+			amet,
+			consectetur adipiscing elit.</p>
+		<form>
+			<label for="name">Nom :</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email :</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message :</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+
+			<button type="submit">Envoyer</button>
+		</form>
+	</section>
+
+	<script src="script.js"></script>
+
+	<script>
+		const toggleBtn = document.querySelector('.toggle_btn'); // Sélecteur de classe
+		const toggleBtnIcon = document.querySelector('.toggle_btn i'); // Sélecteur de classe + élément i pour l'icône
+		const dropdownMenu = document.querySelector('.dropdown_menu'); // Sélecteur de classe
+
+		toggleBtn.onclick = function () {
+			dropdownMenu.classList.toggle('open');
+			const isOpen = dropdownMenu.classList.contains('open');
+
+			// Changer l'icône en fonction de l'état du menu
+			if (isOpen) {
+				toggleBtnIcon.classList.remove('fa-bars');
+				toggleBtnIcon.classList.add('fa-xmark');
+			} else {
+				toggleBtnIcon.classList.remove('fa-xmark');
+				toggleBtnIcon.classList.add('fa-bars');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+			const container = document.querySelector('.activities-container');
+			const scrollLeftBtn = document.querySelector('.scroll-left');
+			const scrollRightBtn = document.querySelector('.scroll-right');
+
+			scrollLeftBtn.addEventListener('click', () => {
+				container.scrollBy({
+					left: -200, // Ajuste la valeur pour changer la distance de défilement
+					behavior: 'smooth'
+				});
+			});
+
+			scrollRightBtn.addEventListener('click', () => {
+				container.scrollBy({
+					left: 200, // Ajuste la valeur pour changer la distance de défilement
+					behavior: 'smooth'
+				});
+			});
+		});
+
+	</script>
+	<!--footer-->
+	<div class="footer" id="zone">
+		<div class="foot-container">
+			<div class="footItem">
+				<div class="foot-contenu">
+					<h2>Siège social</h2>
+					<p>Lambangni face-a-casino</p>
+					<p>16 - PB 3452 Conakry</p>
+					<p>Copyright 2023 / 2024</p>
+					<p>Copyright 2023 / 2024</p>
+
+
+				</div>
+			</div>
+			<div class="footItem">
+				<div class="contenu">
+					<h2>Contacts</h2>
+					<p>contac@serval.com</p>
+					<p>comemerces@serval.com</p>
+					<p>+224 657 57 48 38</p>
+
+				</div>
+			</div>
+			<div class="footItem">
+				<div class="contenu">
+					<h2>Zones d'activités</h2>
+					<p>Grand Conakry.</p>
+
+					<p>Kindia.</p>
+
+					<p>Mamou.</p>
+				</div>
+			</div>
+
+
+		</div>
+</body>
+
+</html>
