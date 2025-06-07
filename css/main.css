@@ -119,13 +119,14 @@ header {
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
     color: white;
     margin-top: 73px;
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 1rem;
 }
