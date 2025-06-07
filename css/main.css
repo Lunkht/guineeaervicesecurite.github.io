@@ -77,7 +77,7 @@ a:hover {
 }
 
 .logo img {
-    width: 120px;
+    width: 70px;
     height: auto;
 }
 
@@ -401,24 +401,65 @@ h2 {
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.5rem;
+    justify-content: center;
 }
-
 .service {
-    flex: 1 1 calc(33% - 40px);
+    width: 220px;
+    min-height: 260px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    padding: 0px;
-    text-align: center;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.service img {
-    width: 100%;
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.activity {
+    width: 220px;
+    min-height: 220px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: #fff;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.about .left {
+    max-width: 400px;
+    text-align: left;
+}
+.about .image-wrap img {
+    width: 90px;
     height: auto;
+    border-radius: 10px;
 }
-
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .service, .activity {
+        width: 90vw;
+    }
+}
 .service_title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
