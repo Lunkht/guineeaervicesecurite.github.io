@@ -113,7 +113,7 @@ header {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ca.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/agent2.png');
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,12 +157,63 @@ header {
     transform: translateY(-3px);
 }
 
+
+
+/*section a propos*/
+#abouts {
+    max-width: 100% 1200px;
+    margin: 0;
+    padding: 0px;
+    background-image: linear-gradient(rgba(95, 128, 103, 0.1), rgba(227, 233, 243, 0.1)), url('./images/agent2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+
+#abouts h1 {
+    text-align: center;
+    color: #606161;
+    font-size: 30px;
+    margin: 12px;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.left {
+    width: 22.22%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-wrap {
+    margin: 0px;
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.image-wrap img {
+    margin: 0px;
+    width: 500px;
+    height: auto;
+
+}
+
+
 .section {
     padding: 4rem 0;
 }
 
 .section-title {
-    text-align: center;
+    text-align: start;
     margin-bottom: 3rem;
 }
 
@@ -192,8 +243,10 @@ header {
 }
 
 .service-card {
-    background-color: white;
+    background-color: rgb(95, 94, 94);
     border-radius: 8px;
+    border: 1px solid #a26767;
+    color: #fff;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
