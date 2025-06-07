@@ -113,7 +113,7 @@ header {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/agent2.png');
-    height: 90vh;
+    height: 95vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,6 +123,7 @@ header {
     text-align: center;
     color: white;
     margin-top: 73px;
+    padding: 40px;
 }
 
 .hero-content {
@@ -259,7 +260,8 @@ header {
 }
 
 .service-img {
-    height: 200px;
+    height: 100px;
+    height: 100px;
     overflow: hidden;
 }
 
