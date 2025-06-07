@@ -1,7 +1,7 @@
 :root {
     --primary-color: #c70303;
     --secondary-color: #ffc400;
-    --dark-color: #152711;
+    --dark-color: #111;
     --light-color: #f9fafb;
     --gray-color: #4b5563;
     --green-color: #0c5c01;
@@ -19,6 +19,7 @@ body {
     background-color: var(--light-color);
     color: var(--dark-color);
     line-height: 1.6;
+    background-color: var(--dark-color);
 }
 
 header {
