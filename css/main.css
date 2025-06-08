@@ -167,7 +167,6 @@ header {
     max-width: 100% 1200px;
     margin: 0;
     padding: 0px;
-    background-image: linear-gradient(rgba(95, 128, 103, 0.1), rgba(227, 233, 243, 0.1)), url('./images/agent2.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -246,9 +245,8 @@ header {
 }
 
 .service-card {
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
-    color: #fff;
     overflow: hidden;
     transition: 0.3s;
 }
