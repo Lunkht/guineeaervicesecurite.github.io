@@ -209,14 +209,28 @@ header {
 
 }
 
-@media (max-width: 768px) {
+/* Media Queries pour la responsivité */
+@media screen and (max-width: 768px) {
     .about {
-display: block;
-padding: 9px;
+        flex-direction: column;
+        text-align: center;
     }
-    
-    .activity-img {
-        height: 180px;
+
+    .about-text-wp h1 {
+        font-size: 2rem;
+    }
+
+    .about-text-wp p {
+        font-size: 1rem;
+    }
+
+    .image-wrap {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .image-wrap img {
+        max-height: 400px;
     }
 }
 .section {
