@@ -288,6 +288,14 @@ header {
     color: var(--gray-color);
 }
 
+/*activites*/
+
+#activities{
+    margin: 0;
+    padding: 30px;
+}
+
+/*section a propos*/
 .features {
     background-color: #eef2f7;
 }
