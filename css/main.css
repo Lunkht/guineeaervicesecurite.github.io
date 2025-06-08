@@ -209,7 +209,15 @@ header {
 
 }
 
-
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+    
+    .activity-img {
+        height: 180px;
+    }
+}
 .section {
     padding: 4rem 0;
 }
