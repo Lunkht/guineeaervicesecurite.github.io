@@ -215,7 +215,9 @@ header {
         flex-direction: column;
         text-align: center;
     }
-
+    .about-text-wp{
+        width: 100%;
+    }
     .about-text-wp h1 {
         font-size: 2rem;
     }
@@ -230,7 +232,7 @@ header {
     }
 
     .image-wrap img {
-        max-height: 400px;
+        max-height: 300px;
     }
 }
 .section {
