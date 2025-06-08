@@ -406,7 +406,7 @@ header {
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 0.2rem;
 }
 
 .feature-item {
@@ -414,7 +414,6 @@ header {
     padding: 2rem;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .feature-icon {
@@ -614,7 +613,6 @@ footer {
 .service-detail-img {
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .service-detail-img img {
@@ -677,7 +675,6 @@ footer {
     border-radius: 8px;
     margin-bottom: 1rem;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .accordion-header {
@@ -712,10 +709,9 @@ footer {
 /* Contact Form */
 .contact-us-form {
     width: 450px;
-    background-color: rgb(216, 182, 69);
+    background-color: rgb(247, 2, 2);
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     margin: 0;
 }
 
