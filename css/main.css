@@ -171,13 +171,13 @@ header {
     background-position: center;
     background-size: cover;
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 
 #abouts h1 {
     text-align: center;
-    color: #606161;
+    color: #000000;
     font-size: 30px;
     margin: 12px;
 }
@@ -221,7 +221,7 @@ header {
 }
 
 .section-title h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
     position: relative;
@@ -248,7 +248,6 @@ header {
 .service-card {
     background-color: rgb(239, 239, 239);
     border-radius: 8px;
-    border: 1px solid #b5b4b4;
     color: #fff;
     overflow: hidden;
     transition: 0.3s;
