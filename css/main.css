@@ -212,6 +212,7 @@ header {
 @media (max-width: 768px) {
     .about {
 display: block;
+padding: 9px;
     }
     
     .activity-img {
